@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96010691249246AA00E5A997 /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96010690249246AA00E5A997 /* ActivityIndicatorViewController.swift */; };
+		96010693249246E400E5A997 /* CapsuleWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96010692249246E400E5A997 /* CapsuleWaveView.swift */; };
+		9621479B2492014600461BC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621479A2492014600461BC3 /* AppDelegate.swift */; };
+		9621479D2492014600461BC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621479C2492014600461BC3 /* SceneDelegate.swift */; };
+		9621479F2492014600461BC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621479E2492014600461BC3 /* ViewController.swift */; };
+		962147A22492014600461BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962147A02492014600461BC3 /* Main.storyboard */; };
+		962147A42492014900461BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962147A32492014900461BC3 /* Assets.xcassets */; };
+		962147A72492014900461BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962147A52492014900461BC3 /* LaunchScreen.storyboard */; };
+		962147AF2492017200461BC3 /* TrueMeds_icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962147AE2492017200461BC3 /* TrueMeds_icon.swift */; };
+		962147B1249201DD00461BC3 /* TMLoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962147B0249201DD00461BC3 /* TMLoaderViewController.swift */; };
+		962147B32492020100461BC3 /* PulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962147B22492020000461BC3 /* PulseAnimation.swift */; };
+		962147B52492034800461BC3 /* CapsuleView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962147B42492034800461BC3 /* CapsuleView2.swift */; };
+		962147B72492035900461BC3 /* CapsuleWaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962147B62492035900461BC3 /* CapsuleWaveViewController.swift */; };
+		962147B9249207B200461BC3 /* TMiconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962147B8249207B200461BC3 /* TMiconViewController.swift */; };
+		962147BB249222FA00461BC3 /* drawTmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962147BA249222FA00461BC3 /* drawTmViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96010690249246AA00E5A997 /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		96010692249246E400E5A997 /* CapsuleWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapsuleWaveView.swift; sourceTree = "<group>"; };
+		962147972492014600461BC3 /* TrueMedsiconAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueMedsiconAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9621479A2492014600461BC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9621479C2492014600461BC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9621479E2492014600461BC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		962147A12492014600461BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		962147A32492014900461BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		962147A62492014900461BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		962147A82492014900461BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962147AE2492017200461BC3 /* TrueMeds_icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueMeds_icon.swift; sourceTree = "<group>"; };
+		962147B0249201DD00461BC3 /* TMLoaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMLoaderViewController.swift; sourceTree = "<group>"; };
+		962147B22492020000461BC3 /* PulseAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseAnimation.swift; sourceTree = "<group>"; };
+		962147B42492034800461BC3 /* CapsuleView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapsuleView2.swift; sourceTree = "<group>"; };
+		962147B62492035900461BC3 /* CapsuleWaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapsuleWaveViewController.swift; sourceTree = "<group>"; };
+		962147B8249207B200461BC3 /* TMiconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMiconViewController.swift; sourceTree = "<group>"; };
+		962147BA249222FA00461BC3 /* drawTmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawTmViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		962147942492014600461BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9621478E2492014600461BC3 = {
+			isa = PBXGroup;
+			children = (
+				962147992492014600461BC3 /* TrueMedsiconAnimation */,
+				962147982492014600461BC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		962147982492014600461BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				962147972492014600461BC3 /* TrueMedsiconAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		962147992492014600461BC3 /* TrueMedsiconAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				9621479A2492014600461BC3 /* AppDelegate.swift */,
+				9621479C2492014600461BC3 /* SceneDelegate.swift */,
+				9621479E2492014600461BC3 /* ViewController.swift */,
+				962147AE2492017200461BC3 /* TrueMeds_icon.swift */,
+				962147B0249201DD00461BC3 /* TMLoaderViewController.swift */,
+				962147B22492020000461BC3 /* PulseAnimation.swift */,
+				962147B42492034800461BC3 /* CapsuleView2.swift */,
+				962147B62492035900461BC3 /* CapsuleWaveViewController.swift */,
+				962147A02492014600461BC3 /* Main.storyboard */,
+				962147A32492014900461BC3 /* Assets.xcassets */,
+				962147A52492014900461BC3 /* LaunchScreen.storyboard */,
+				962147A82492014900461BC3 /* Info.plist */,
+				962147B8249207B200461BC3 /* TMiconViewController.swift */,
+				962147BA249222FA00461BC3 /* drawTmViewController.swift */,
+				96010690249246AA00E5A997 /* ActivityIndicatorViewController.swift */,
+				96010692249246E400E5A997 /* CapsuleWaveView.swift */,
+			);
+			path = TrueMedsiconAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		962147962492014600461BC3 /* TrueMedsiconAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962147AB2492014900461BC3 /* Build configuration list for PBXNativeTarget "TrueMedsiconAnimation" */;
+			buildPhases = (
+				962147932492014600461BC3 /* Sources */,
+				962147942492014600461BC3 /* Frameworks */,
+				962147952492014600461BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrueMedsiconAnimation;
+			productName = TrueMedsiconAnimation;
+			productReference = 962147972492014600461BC3 /* TrueMedsiconAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9621478F2492014600461BC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Siddhesh Redkar";
+				TargetAttributes = {
+					962147962492014600461BC3 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 962147922492014600461BC3 /* Build configuration list for PBXProject "TrueMedsiconAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9621478E2492014600461BC3;
+			productRefGroup = 962147982492014600461BC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				962147962492014600461BC3 /* TrueMedsiconAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		962147952492014600461BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962147A72492014900461BC3 /* LaunchScreen.storyboard in Resources */,
+				962147A42492014900461BC3 /* Assets.xcassets in Resources */,
+				962147A22492014600461BC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		962147932492014600461BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9621479F2492014600461BC3 /* ViewController.swift in Sources */,
+				962147B52492034800461BC3 /* CapsuleView2.swift in Sources */,
+				962147B72492035900461BC3 /* CapsuleWaveViewController.swift in Sources */,
+				96010691249246AA00E5A997 /* ActivityIndicatorViewController.swift in Sources */,
+				962147B1249201DD00461BC3 /* TMLoaderViewController.swift in Sources */,
+				9621479B2492014600461BC3 /* AppDelegate.swift in Sources */,
+				9621479D2492014600461BC3 /* SceneDelegate.swift in Sources */,
+				962147B32492020100461BC3 /* PulseAnimation.swift in Sources */,
+				962147BB249222FA00461BC3 /* drawTmViewController.swift in Sources */,
+				962147AF2492017200461BC3 /* TrueMeds_icon.swift in Sources */,
+				962147B9249207B200461BC3 /* TMiconViewController.swift in Sources */,
+				96010693249246E400E5A997 /* CapsuleWaveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		962147A02492014600461BC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962147A12492014600461BC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		962147A52492014900461BC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962147A62492014900461BC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		962147A92492014900461BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		962147AA2492014900461BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		962147AC2492014900461BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR8Z732375;
+				INFOPLIST_FILE = TrueMedsiconAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpli5infotech.TrueMedsiconAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		962147AD2492014900461BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR8Z732375;
+				INFOPLIST_FILE = TrueMedsiconAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpli5infotech.TrueMedsiconAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		962147922492014600461BC3 /* Build configuration list for PBXProject "TrueMedsiconAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962147A92492014900461BC3 /* Debug */,
+				962147AA2492014900461BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962147AB2492014900461BC3 /* Build configuration list for PBXNativeTarget "TrueMedsiconAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962147AC2492014900461BC3 /* Debug */,
+				962147AD2492014900461BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9621478F2492014600461BC3 /* Project object */;
+}
